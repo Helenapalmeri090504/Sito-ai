@@ -1,0 +1,198 @@
+body{
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:rgba(0, 50, 64, 1) ;
+    color: #fff;
+    max-width: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    font-size: 15px;
+    display: flex;
+    list-style: none;
+    padding: 16px 40px;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 8px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:rgba(2, 151, 215, 1);
+    text-decoration-thickness: 5px;
+}
+.titolo{
+    background-color:rgba(0, 50, 64, 1);
+    color: #fff;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 200px;
+}
+
+.titoloa{
+    color: rgba(2, 151, 215, 1);
+}
+
+.esperimento, .storie, .unesco{
+    background-color:white;
+    color:rgba(0, 50, 64, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    gap: 16px;
+
+}
+
+p{
+    font-size: 15px;
+    margin-top: 128px;
+    max-width: 800px;
+    margin-right: 100px;
+}
+
+h2{
+    color: rgba(2, 151, 215, 1);
+    width: 300px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.esperimento h2 {
+    margin-top: 128px;
+}
+.unesco h2{
+    margin-top: 96px;
+}  
+h3{
+    margin-top: 16px;
+    margin-right: 16px;
+}
+h4{
+    color: rgba(2, 151, 215, 1);
+    margin: auto;
+    font-size: 20px;
+    max-width: 1000px;
+    margin-top: 64px;
+}
+.colore{
+    color: rgba(2, 151, 215, 1);
+    margin: 0;
+    max-width: 800px;
+    margin-right: 160px;
+
+}
+.storie{
+    margin-top: 64px;
+}
+.richiesta{
+    font-size: 26px;
+}
+
+.AI{
+    color:rgba(0, 50, 64, 1);
+}
+
+.secondopar{
+    margin-top: 32px;
+}
+
+footer{
+    background-color:rgba(0, 50, 64, 1) ;
+    color: #fff;
+    padding: 16px;
+    margin-top: 128px;
+}
+
+.contact{
+    display: flex;
+    max-width: 200px;
+    margin: auto;
+}
+
+.contatti{
+    font-size: 12px;
+
+}
+
+.BY{
+    font-size: 32px;
+}
+
+
+@media screen and (max-width: 600px){
+    body{
+        margin:0;
+        padding: 0;
+    }
+
+    header{
+        padding: 4px;
+    }
+
+    nav ul{
+        font-size: 10px;
+
+    }
+
+ 
+    .titolo{
+        font-size: 40px;
+    }
+    .esperimento, .storie, .unesco{
+        flex-direction: column;
+        gap: 16px;
+        padding: 8px;
+        margin:16px;
+    }
+    h2{
+        font-size: 24px;
+        margin: 0;
+        margin-left: 16px;
+        text-align: left;
+    }
+    p, .colore, h3, h4{
+        font-size: 14px;
+        margin: 0 16px 16px 16px;
+    }
+    .richiesta{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 14px;
+        margin: 8px 64px 64px 64px;
+        text-align: left;
+  }
+
+    .contact{
+    display: flex;
+    max-width: 50px;
+    margin: 0;
+    }
+    .contatti{
+        font-size: 8px;
+        margin-left: 32px;
+    }
+    .BY{
+        font-size: 20px;
+    }
+
+
+}
